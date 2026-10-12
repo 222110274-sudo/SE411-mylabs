@@ -1,0 +1,23 @@
+2026-10-12 10:23:21,516 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.App - Application is starting...
+2026-10-12 10:23:21,522 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 24.54 C
+2026-10-12 10:23:21,523 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 59.46 %
+2026-10-12 10:23:22,528 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 34.38 C
+2026-10-12 10:23:22,529 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 42.73 %
+2026-10-12 10:23:23,546 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 31.88 C
+2026-10-12 10:23:23,555 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 40.21 %
+2026-10-12 10:23:24,561 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 20.02 C
+2026-10-12 10:23:24,563 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 55.67 %
+2026-10-12 10:23:25,578 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 24.09 C
+2026-10-12 10:23:25,581 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 41.37 %
+2026-10-12 10:23:26,598 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 27.22 C
+2026-10-12 10:23:26,599 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 47.36 %
+2026-10-12 10:23:27,608 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 25.92 C
+2026-10-12 10:23:27,609 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 56.69 %
+2026-10-12 10:23:28,624 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 29.14 C
+2026-10-12 10:23:28,625 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 48.13 %
+2026-10-12 10:23:29,641 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 34.76 C
+2026-10-12 10:23:29,641 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 56.18 %
+2026-10-12 10:23:30,657 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 33.75 C
+2026-10-12 10:23:30,657 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Humidity reading changed to 41.58 %
+2026-10-12 10:23:31,664 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.observers.LoggerObserver - Temperature reading changed to 30.00 C
+2026-10-12 10:23:31,664 INFO [edu.psu.se411.lab08.App.main()] edu.psu.se411.lab08.App - Application is stopping...
