@@ -1,0 +1,40 @@
+2026-10-11 10:41:20,968 INFO [edu.spu.se411.lab07_polymorphism.App.main()] edu.spu.se411.lab07_polymorphism.App - Application is starting...
+2026-10-11 10:41:20,973 ERROR [edu.spu.se411.lab07_polymorphism.App.main()] edu.spu.se411.lab07_polymorphism.App - Invalid luggage weight for booking F003
+edu.spu.se411.lab07_polymorphism.exceptions.InvalidArgumentException: Luggage weight must be between 0.0 and 40.0, but was 55.0
+	at edu.spu.se411.lab07_polymorphism.model.Booking.checkRange(Booking.java:35)
+	at edu.spu.se411.lab07_polymorphism.model.FlightBooking.setLuggageWeight(FlightBooking.java:21)
+	at edu.spu.se411.lab07_polymorphism.App.main(App.java:58)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286)
+	at java.lang.Thread.run(Thread.java:745)
+2026-10-11 10:41:20,975 ERROR [edu.spu.se411.lab07_polymorphism.App.main()] edu.spu.se411.lab07_polymorphism.App - Invalid distance for booking T002
+edu.spu.se411.lab07_polymorphism.exceptions.InvalidArgumentException: Distance must be between 1.0 and 2000.0, but was 2500.0
+	at edu.spu.se411.lab07_polymorphism.model.Booking.checkRange(Booking.java:35)
+	at edu.spu.se411.lab07_polymorphism.model.TrainBooking.setDistance(TrainBooking.java:21)
+	at edu.spu.se411.lab07_polymorphism.App.main(App.java:66)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286)
+	at java.lang.Thread.run(Thread.java:745)
+2026-10-11 10:41:20,978 ERROR [edu.spu.se411.lab07_polymorphism.App.main()] edu.spu.se411.lab07_polymorphism.App - Cannot compute price for booking F002
+edu.spu.se411.lab07_polymorphism.exceptions.MissingInformationException: Luggage weight is not provided for booking F002
+	at edu.spu.se411.lab07_polymorphism.model.Booking.checkProvided(Booking.java:28)
+	at edu.spu.se411.lab07_polymorphism.model.FlightBooking.computePrice(FlightBooking.java:27)
+	at edu.spu.se411.lab07_polymorphism.App.computeTotalPrice(App.java:24)
+	at edu.spu.se411.lab07_polymorphism.App.main(App.java:75)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286)
+	at java.lang.Thread.run(Thread.java:745)
+2026-10-11 10:41:20,978 ERROR [edu.spu.se411.lab07_polymorphism.App.main()] edu.spu.se411.lab07_polymorphism.App - Cannot compute price for booking C002
+edu.spu.se411.lab07_polymorphism.exceptions.MissingInformationException: Number of days is not provided for booking C002
+	at edu.spu.se411.lab07_polymorphism.model.Booking.checkProvided(Booking.java:28)
+	at edu.spu.se411.lab07_polymorphism.model.CarRentalBooking.computePrice(CarRentalBooking.java:27)
+	at edu.spu.se411.lab07_polymorphism.App.computeTotalPrice(App.java:24)
+	at edu.spu.se411.lab07_polymorphism.App.main(App.java:75)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286)
+	at java.lang.Thread.run(Thread.java:745)
+2026-10-11 10:41:20,981 INFO [edu.spu.se411.lab07_polymorphism.App.main()] edu.spu.se411.lab07_polymorphism.App - Application is stopping...

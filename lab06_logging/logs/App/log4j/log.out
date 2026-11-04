@@ -1,0 +1,22 @@
+2026-10-07 10:32:40,088 INFO [edu.spu.se411.lab06_logging.App.main()] edu.spu.se411.lab06_logging.App - Application is starting...
+2026-10-07 10:32:40,090 DEBUG [edu.spu.se411.lab06_logging.App.main()] edu.spu.se411.lab06_logging.model.WalletAccount - Wallet account created with balance 1000.0
+2026-10-07 10:32:40,090 DEBUG [edu.spu.se411.lab06_logging.App.main()] edu.spu.se411.lab06_logging.model.WalletAccount - Withdraw requested: amount=1500.0, balance=1000.0
+2026-10-07 10:32:40,090 WARN [edu.spu.se411.lab06_logging.App.main()] edu.spu.se411.lab06_logging.exceptions.InsufficientFundsException - InsufficientFundsException created: Insufficient funds. Your balance is 1000.0
+2026-10-07 10:32:40,090 ERROR [edu.spu.se411.lab06_logging.App.main()] edu.spu.se411.lab06_logging.App - Withdrawal failed
+edu.spu.se411.lab06_logging.exceptions.InsufficientFundsException: Insufficient funds. Your balance is 1000.0
+	at edu.spu.se411.lab06_logging.model.WalletAccount.withdraw(WalletAccount.java:24)
+	at edu.spu.se411.lab06_logging.App.main(App.java:19)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-10-07 10:32:40,092 DEBUG [edu.spu.se411.lab06_logging.App.main()] edu.spu.se411.lab06_logging.model.WalletAccount - Deposit requested: amount=-100.0, balance=1000.0
+2026-10-07 10:32:40,093 ERROR [edu.spu.se411.lab06_logging.App.main()] edu.spu.se411.lab06_logging.App - Deposit failed
+java.lang.IllegalArgumentException: Cannot deposit negative number: -100.0
+	at edu.spu.se411.lab06_logging.model.WalletAccount.deposit(WalletAccount.java:35)
+	at edu.spu.se411.lab06_logging.App.main(App.java:26)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-10-07 10:32:40,093 INFO [edu.spu.se411.lab06_logging.App.main()] edu.spu.se411.lab06_logging.App - Application is ending...
